@@ -1,0 +1,33 @@
+button,
+input {
+  font: inherit;
+}
+
+.word-card,
+.saved-word {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  background: white;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgb(15 23 42 / 5%);
+}
+
+.saved-word {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.synonyms {
+  color: #475569;
+  line-height: 1.7;
+}
+
+.error-message {
+  color: #b91c1c;
+}
+
+.success-message {
+  color: #475569;
+}
